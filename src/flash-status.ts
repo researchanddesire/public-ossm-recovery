@@ -46,7 +46,7 @@ export const flashStatusFromState = (
       return {
         tone: "working",
         title: "Connecting to the ESP32",
-        detail: "Choose the Awesome serial port when Chrome or Edge asks.",
+        detail: "Choose the OSSM serial port when Chrome or Edge asks.",
       };
     case "preparing":
       return {
@@ -84,7 +84,7 @@ export const flashStatusFromState = (
           tone: "warning",
           title: "Installation canceled",
           detail:
-            "No changes were requested. Start again when the correct Awesome serial port is available.",
+            "No changes were requested. Start again when the correct OSSM serial port is available.",
         };
       }
       if (

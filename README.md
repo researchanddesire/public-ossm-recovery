@@ -1,7 +1,7 @@
-# Awesome (OSSM) Recovery
+# OSSM Recovery
 
 A public, browser-based recovery tool for restoring the bootloader and stable
-firmware on an Awesome (OSSM) ESP32 control board.
+firmware on an OSSM ESP32 control board.
 
 The recovery tool does not bundle firmware. It reads the current approved
 production release from Research + Desire's public firmware catalog, validates

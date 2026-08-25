@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve Awesome recovery.
+Thank you for helping improve OSSM recovery.
 
 ## Before opening a change
 
@@ -22,4 +22,4 @@ pnpm test:e2e
 ```
 
 Hardware-affecting changes also require a controlled test on an ESP32-based
-Awesome control board with the motor supply disconnected during flashing.
+OSSM control board with the motor supply disconnected during flashing.

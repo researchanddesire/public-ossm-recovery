@@ -26,11 +26,11 @@ const pageMarkup = `
 
     <main>
       <section class="hero" aria-labelledby="page-title">
-        <div class="eyebrow"><span></span> Awesome / OSSM</div>
+        <div class="eyebrow"><span></span> OSSM</div>
         <h1 id="page-title">Bring the control board <em>back.</em></h1>
         <p class="hero-copy">
           Restore the ESP32 bootloader, partition table, and current stable
-          Awesome firmware directly from Chrome or Edge.
+          OSSM firmware directly from Chrome or Edge.
         </p>
         <div class="hero-meta" aria-label="Recovery characteristics">
           <span>USB recovery</span><span>Stable firmware only</span><span>No account required</span>
@@ -44,7 +44,7 @@ const pageMarkup = `
           <h2 id="safety-title">Make the machine safe.</h2>
           <p>
             Stop all motion, move people and objects clear, disconnect the motor
-            power supply, and connect only the Awesome control board by USB.
+            power supply, and connect only the OSSM control board by USB.
           </p>
         </div>
       </section>
@@ -90,7 +90,7 @@ const pageMarkup = `
           <h2 id="steps-title">Four controlled steps</h2>
           <ol class="steps-list">
             <li><span>1</span><div><strong>Prepare</strong><p>Disconnect motor power and connect USB only.</p></div></li>
-            <li><span>2</span><div><strong>Recover</strong><p>Choose the Awesome serial port and install the approved image.</p></div></li>
+            <li><span>2</span><div><strong>Recover</strong><p>Choose the OSSM serial port and install the approved image.</p></div></li>
             <li><span>3</span><div><strong>Restart</strong><p>Wait for completion before disconnecting USB.</p></div></li>
             <li><span>4</span><div><strong>Verify</strong><p>Restore power with the path clear; test unloaded homing, minimum motion, and Stop.</p></div></li>
           </ol>
